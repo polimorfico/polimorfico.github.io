@@ -1,0 +1,24 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: me
+    entries:
+      - title: about
+        url: about
+      - title: email
+        url: mailto:carlos.hernandez@hey.com
+      - title: twitter
+        url: https://twitter.com/polimorfico
+      - title: github
+        url: https://github.com/polimorfico
+
+  - title: blog
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive
+
+  - title: rss
+    url: feed.xml
